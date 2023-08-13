@@ -134,9 +134,6 @@ WHERE dbo.Products.UnitsInStock < 100
 GROUP BY dbo.Categories.CategoryName
 GO
 
---3.8
--- пропущен пункт)))
-
 --3.9
 SELECT dbo.Employees.LastName, dbo.Employees.FirstName
 FROM     dbo.Employees INNER JOIN
